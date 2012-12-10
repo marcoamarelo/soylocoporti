@@ -1,0 +1,43 @@
+#form_box {
+	width: 590px;
+	background: #f8f8f8;
+	border: 1px solid #d6d6d6;
+	border-left-color: #e4e4e4;
+	border-top-color: #e4e4e4;
+	font:0.8em Arial, Helvetica, Sans-serif;
+	padding: 0.5em;
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+ 
+#form_box div {
+	padding: 0.2em 0.5em;
+}
+ 
+#form_box div.hr {
+	border-bottom: 2px solid #e2e2e1;
+	height: 0px;
+	margin-top: 0pt;
+	margin-bottom: 7px;
+}
+ 
+#form_box p {
+	float: left;
+	margin: 4px 0pt;
+	width: 120px;
+}
+ 
+ 
+#log {
+	width: 590px;
+	margin-top: 10px;
+}
+ 
+#log_res {
+	overflow: auto;
+}
+ 
+#log_res.ajax-loading {
+	padding: 20px 0;
+	background: url(http://demos.mootools.net/demos/Group/spinner.gif) no-repeat center;
+}

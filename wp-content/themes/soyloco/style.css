@@ -1,0 +1,210 @@
+/*
+Theme Name: Soyloco
+Theme URI: http://soylocoporti.org.br/
+Description: O tema pro novo Soyloco.
+Version: 4.0
+Author: Ethymos
+Author URI: http://ethymos.com.br/
+*/
+
+ul, dl { margin:0; }
+fieldset { border:none; margin:0; padding:0; }
+.hidden { display:none; }
+div.colborder { border-right:none; }
+a:link { color:#de1010; }
+a:visited { color:#c12f2f; }
+a:hover { background:#de1010; color:#fff; text-decoration:none; }
+
+h6 { color:#B7867B; font-size:1.5em; letter-spacing:-1px; margin:0 0 1em; text-transform:lowercase; }
+
+body { background:url(images/fundo.jpg) fixed; margin:0; padding:0; }
+
+.button { border:none; cursor:pointer; font:inherit; font-size:1.17em; font-weight:bold; letter-spacing:-1px; text-transform:lowercase; }
+
+#mae { padding:0 0 100px 0; }
+
+#topo { padding:0 0 20px 0; }
+
+.al_nodisplay {	display: none; }
+#al_loading, #al_login, #al_register, #al_lostPassword {  }
+#al_loginMessage, #al_registerMessage, #al_lostPasswordMessage { }
+#al_loadingImage { margin-top:35px; }
+
+.login p { color:#666; margin:0; }
+.login form label { font-weight:normal; }
+.login .text { margin:0; width:218px; }
+.login .button { background:#ccc; color:#fff; }
+
+.login .avatar { float:left; margin:0 12px 12px 0; }
+
+.login ul li { display:inline; }
+
+#busca { background:#e3e3e3; margin:10px 0 0; }
+#busca form { padding:10px; }
+#busca form #s { border:1px solid #ccc; color:#404040; font:inherit; font-size:1.5em; padding:4px; width:340px; }
+#busca form .button { background:#cc0000; color:#fff; height:31px; font:inherit; font-size:1.5em; letter-spacing:-1px; margin:0 0 0 -3px; text-transform:lowercase; }
+
+#topo .menu { margin:0 0 10px }
+#topo .menu ul { font-size:1.5em; font-weight:bold; letter-spacing:-1px; text-transform:lowercase; }
+#topo .menu ul li { float:left; line-height:1; list-style:none; text-align:center; width:118px; }
+#topo .menu ul li a { border-bottom:4px solid white; color:#fff; display:block; padding:12px 0 4px; text-decoration:none; }
+#topo .menu ul li.menu-capa a { background:#1789CF; }
+#topo .menu ul li.menu-sobre a { background:#E88521; }
+#topo .menu ul li.menu-textos a { background:#B7867B; }
+#topo .menu ul li.menu-fotos a { background:#F5E410; }
+#topo .menu ul li.menu-videos a { background:#6699cc; }
+#topo .menu ul li.menu-blogs a { background:#A6CA32; }
+#topo .menu ul li.menu-agenda a { background:#666; }
+#topo .menu ul li.menu-contato a { background:#FF3366; }
+#topo .menu ul li.current_page_item a { border-bottom:4px solid black; }
+
+p#logo { height:76px; margin:0; overflow:hidden; position:relative; text-indent:-5000px; width:230px; }
+p#logo a { background:url(images/logo.gif) center top no-repeat; display:block; height:100%; width:100%; }
+
+#boasvindas { overflow:hidden; }
+#boasvindas h2 { color:#B7867B; font-size:1.5em; letter-spacing:-1px; margin:0 0 10px; text-transform:lowercase; }
+#boasvindas p { color:#404040; font-family:georgia, serif; font-style:italic; }
+#boasvindas a { background:#de1010; color:#fff; text-decoration:none; }
+
+h2#migalhas { background:url(images/linha.gif) center top no-repeat; font-size: 1.5em; line-height:1; margin:0 0 60px; padding:12px 0 0; }
+
+#twitter { background:#FFF6BF; position: relative; border-bottom:1px solid #FFD324; border-top:1px solid #FFD324; color:#514721; margin:0 0 24px 0; padding:6px 0; text-align:center; width:100%; }
+#twitter p { margin:0; }
+#twitter img#tweet { position:absolute; left: 0; top: -17px; }
+#twitter span.twitter-timestamp { font-family: georgia, serif; font-size:1em; font-style:oblique; }
+#twitter acronym { border-bottom:0; }
+
+.arquivo { margin:0 0 10px 0; position:relative; }
+.arquivo a.blogname { background:#F5E410; color:#666; padding:0 5px 0 20px; position:absolute; right:-10px; top:10px; text-decoration:none; }
+.arquivo h1 { background:#262626; font-size:1.5em; letter-spacing:-1px; line-height:1; margin:0; }
+.arquivo h1 a { color:white; display:block; padding:10px 10px 30px 10px; text-decoration:none; }
+.arquivo h1 a:hover { background:#000 url(images/seta.gif) right bottom no-repeat; color:#FF3366; }
+.image-wrapper { overflow:hidden; }
+.image-wrapper a:hover { color:black; }
+
+.blog-oficial .image-wrapper a { background:#A6CA32; color:#fff; }
+
+#lateral ul { font-size:1.5em; font-weight:bold; line-height:1.2; }
+#lateral ul li { list-style:none; }
+#lateral ul li a { text-decoration:none; }
+#lateral ul li.current_page_item a { background:#de1010; color:#fff; }
+
+ol#atualizados { font-size:1.17em; margin:0; }
+ol#atualizados li { color:#999; line-height:1; list-style:none; margin:0 0 1em 0; }
+ol#atualizados li img { float:left; margin:0 10px 0 0; }
+ol#atualizados li a { text-decoration:none; }
+
+.post-header { margin:0 0 24px 0; }
+.post-header small { font-size:1em; }
+.post-header h1 { color:#666; font-size:3em; letter-spacing:-1px; line-height:1; margin:0; }
+
+.entry { color:#404040; font-size:1.17em; }
+.entry p { margin:0 0 1em 0; }
+.entry ul { margin:1em 0 1em 16px; }
+.entry ul li { list-style-type:square; }
+.entry p.tags { font-size: 0.9em; padding-top: 10px;}
+.entry p.tags a { color: #999; font-size: 1em; }
+.entry p.tags a:hover { color: #de1010; text-decoration: underline; background: none; }
+.entry p.tags em {font-family: Georgia, Times, serif; text-transform: lowercase; letter-spacing: -1px; color: #333; font-size: 1.2em; }
+
+.alignright { float:right; }
+
+#post-289 ul li { float:left; height:150px; list-style-type:none;  }
+#post-289 ul li a:hover { background:#fff; }
+#post-289 ul li img { clear:both; }
+
+.texto { border-bottom:1px dotted #e3e3e3; }
+.texto img { border:1px solid #666; margin:0 12px 15px 0; padding:2px; float:left; }
+.texto a img { background:#fff; }
+.texto a:hover img { background:#B7867B; }
+.texto .texto-detalhes { margin:0 0 0 122px; }
+.texto h1 { font-size:2em; letter-spacing:-1px; margin:0 0 12px 0; }
+.texto h1 a { text-decoration:none; }
+.texto p { margin:0; }
+
+.blog, .texto { padding:24px 0; }
+.blog img { border:1px solid #666; margin:0 12px 0 0; padding:2px; }
+.blog a img { background:#fff; }
+.blog a:hover img { background:#A6CA32; }
+.blog h3 { letter-spacing:-1px; margin:0; }
+.blog h3 a { text-decoration:none; }
+.blog p { margin:0; }
+.blog p em { color:#666; font-family:georgia, serif; }
+.blog p.blog-ultimo { margin:12px 0 0; }
+
+p#contador { color:#A6CA32; font-family:georgia, serif; font-style:oblique; line-height:1; margin:0 0 24px 0; text-align:center; }
+p#contador big { font-family:helvetica, arial, sans-serif; font-size:3em; font-style:normal; font-weight:bold; letter-spacing:-2px; }
+
+#formContato { margin:0 0 24px 0; }
+#formContato label { color:#666; font-size:1.17em; font-weight:bold; letter-spacing:-1px; line-height:1; text-transform:lowercase; }
+#contato-campos { float:right; width:310px; }
+#contato-campos .text { width:298px; }
+#contato-mensagem { float:left; width:350px; }
+#contato-mensagem .text { height:131px; width:338px; }
+#formContato .button { background:#de1010; clear:both; color:#fff; display:block; margin:0 0 0 auto; }
+
+.contato address { font-style:normal; }
+
+.resultado { padding:24px 0; }
+.resultado h1 { letter-spacing:-1px; line-height:1; margin:0; }
+.resultado h1 a { text-decoration:none; }
+.resultado p { font-size:1.17em; margin:0; }
+
+a.titulo-blog { background:#F5E410; color:#666; padding:0 5px 0 20px; text-decoration:none; }
+a.titulo-blog:hover { color:black; }
+
+#rodape { background:url(images/footer.png) center bottom no-repeat; padding:0 0 240px 0; text-align:center; }
+#rodape .menu { margin-bottom:20px; }
+#rodape .menu ul li { display:inline; padding:0 4px; }
+#rodape .menu ul li a { text-decoration:none; }
+#rodape .menu ul li.current a { background:#de1010; color:#fff; text-decoration:none; }
+#rodape p { font-family:georgia, serif; font-style:oblique; }
+#rodape a#cc { background:transparent; }
+
+.mu_register form { margin-top: 2em; }
+.mu_register .error { font-weight:700; padding:10px; color:#333333; background:#FFEBE8; border:1px solid #CC0000; }
+.mu_register #submit,
+.mu_register #blog_title,
+.mu_register #user_email,
+.mu_register #blogname,
+.mu_register #user_name { padding:6px; width:70%; }
+.mu_register .prefix_address,
+.mu_register .suffix_address {font-size: 18px; display:inline; }
+.mu_register label, span.signup-label { color:#666; font-size:1.17em; font-weight:bold; display:block; letter-spacing:-1px; }
+.mu_register label.checkbox { display:inline; }
+.mu_register .mu_alert { font-weight:700; padding:10px; color:#333333; background:#ffffe0; border:1px solid #e6db55; }
+
+.mu_register div { margin:20px 0; }
+
+.signup-field input { padding:6px; width:70%; }
+
+span.signup-description { color:#666; font-family:georgia, serif; font-style:oblique; }
+
+#breaker { margin:20px 0; }
+#breaker h3 { color:#1789CF; font-size:1.5em; font-weight:bold; letter-spacing:-1px; margin:0; }
+.mu_register p { color:#999; font-family:georgia, serif; font-style:oblique; }
+
+#video-destaque {  }
+#mais-videos { margin-bottom:20px; }
+#mais-videos .video { border-bottom:1px dashed #ccc; float:left; padding:10px; width:315px; }
+#mais-videos .video img { background:#fff; border:1px solid #ccc; float:left; margin:0 9px 0 0; padding:4px; }
+#mais-videos .video p { font-size:1em; }
+#mais-videos .video p a { text-decoration:none; }
+
+#videos-favoritos .video { border-bottom:1px dashed #ccc; padding:10px; }
+#videos-favoritos .video img { background:#fff; border:1px solid #ccc; padding:4px; }
+
+p#vermais-videos { color:#B7867B; font-size:1.5em; font-weight:bold; letter-spacing:-1px; margin:0 0 1em; text-align:center; text-transform:lowercase; }
+
+#tagcloud a:hover { background:#e3e3e3; color:#fff; text-decoration:none; }
+
+/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
+	It won't be a stylish marriage, I can't afford a carriage.
+	But you'll look sweet upon the seat of a bicycle built for two." */
+
+
+#banner { position: relative; border-bottom:1px solid #FFD324; border-top:1px solid #FFD324; color:#514721; margin:0 0 24px 0; padding:6px 0; text-align:center; width:100%; }
+#banner img {margin:auto;}
+#texto-divulgacao { font-size:0.5em;writing-mode: tb-rl;position:absolute; margin-left:-20px; background:#A6CA32; color:#fff; }
+
+#selo-midia-livre { position:absolute;margin-left:120px; margin-top:-10px; }

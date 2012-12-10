@@ -1,0 +1,1 @@
+Go top send.php and put your email there at line 11. That's just about everything you need to configure :)

@@ -1,0 +1,5 @@
+
+Alterações da Versão 0.11 para 0.12
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+1. Acrescentado o Boleto Santander Banespa (Banco 033)

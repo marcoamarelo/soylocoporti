@@ -1,0 +1,322 @@
+/*
+Theme Name: Blogs do Soyloco
+Theme URI: http://soylocoporti.org.br/
+Description: O tema padrão para blogs do Soylocoporti.
+Version: 1.0
+Author: Soylocoporti
+Tags: mantle color, variable width, two columns, widgets
+*/
+
+a {	color:#990000; text-decoration:none; }
+
+ul { margin:0; }
+li { list-style:none; }
+
+.button { background:#ccc; border:none;	color:#fff;	cursor:pointer;	font:bold 1.2em/1 helvetica, arial, sans-serif;	letter-spacing:-1px; }
+
+div.colborder {	border-right:1px solid #fff; }
+
+h3 { color:#999; font-size:2em;	font-weight:bold; letter-spacing:-1px; margin:0; text-transform:uppercase; }
+h6 { color:#999; font:bold 1.5em/1 helvetica, arial, sans-serif; letter-spacing:-1px; text-align:left; text-transform:lowercase; }
+
+body { border-top:4px solid #f5840c; margin:0 0; padding:0; }
+
+div.container {	width:750px; }
+
+.frase { color:#999; font:normal 1.5em/1 georgia, "times new roman", serif;	font-style:oblique;	margin:0; text-transform:lowercase; }
+.frase a { color:#999; text-decoration:underline; }
+.frase a:hover { background:#e3e3e3; color:#262626; text-decoration:none; }
+
+#cabeca .frase { line-height:41px; }
+
+#busca p {
+	margin:0;
+}
+#cabeca .text {
+	background:url(images/lupa.png) 6px center no-repeat;
+	padding-left:26px;
+	width:148px;
+}
+
+#topo-wrap { background:#A6CA32; width:100%; }
+#topo { background:yellow; height:200px; margin:0 auto;	position:relative; width:750px; }
+
+#texto-topo { position:absolute; top:50%; }
+#texto-topo p { margin:0; }
+p#logo { font-size:2em; font-weight:bold; letter-spacing:-2pt; }
+p#logo a { background:#F5E410; color:#262626; margin:0 0 0 -10px; padding:0 36px 0 8px; }
+p#logo a:hover { color:#000; }
+p#descricao { color:#666; font:normal 1.5em/1 georgia, "times new roman", serif; font-style:oblique; margin:0 0 0 12px; text-transform:lowercase; }
+p#descricao span { background:#fff; padding:0 12px 0 4px; }
+
+.menu {	background:#6699CC; margin-bottom:20px;	padding:4px 0; text-align:center; width:100%; }
+.menu ul { font-size:1.67em; font-weight:bold; letter-spacing:-1px; text-transform:lowercase; }
+.menu ul li { display:inline; padding:0 4px; }
+.menu ul li a {	color:#e3e3e3; }
+.menu ul li a:hover, .menu ul li.current_page_item a { background:#666; color:#fff; }
+
+.post {
+	border-bottom:1px dashed #ccc;
+	margin-bottom:24px;
+	padding:0 0 8px 0;
+}
+.post-header {
+	margin-bottom:3em;
+}
+.post-header small {
+	letter-spacing:0.03em;
+	text-transform:uppercase;
+}
+
+.post h1 { color:#999; font-size:3em; font-weight:bold; letter-spacing:-2px; margin:0; }
+.post h1 a { color:#A6CA32; }
+.post h1 a:hover { color:#6699CC; }
+
+.entry { color:#404040; font:normal 1.17em/1.67 georgia, "times new roman", serif; }
+
+p.comenta {
+	font:bold 1.5em/1 helvetica, arial, sans-serif;
+	letter-spacing:-1px;
+	margin:0;
+	text-align:right;
+}
+.navega {
+	font:bold 1.5em/1 helvetica, arial, sans-serif;
+	letter-spacing:-1px;
+	margin-bottom:20px;
+	text-transform:lowercase;
+	width:100%;
+}
+.navega a {
+	background:#e3e3e3;
+	color:#f5840c;
+	display:block;
+	padding:8px 0;
+	width:100%;
+}
+.navega a:hover {
+	color:#ec3c00;
+}
+.navega div {
+	position:relative;
+	text-align:center;
+	width:30%;
+}
+.antigos {
+	float:left;
+}
+.recentes {
+	float:right;
+}
+.caixa {
+	background:#e3e3e3 url(images/canto.png) right top no-repeat;
+	border-bottom:2px solid #ccc;
+	margin-bottom:20px;
+	padding:10px;
+}
+#participe {
+	background:#cc0000 url(images/cantovermelho.png) right top no-repeat;
+	border-bottom:2px solid #990000;
+}
+#participe h6 {
+	color:#660000;
+}
+#participe p {
+	margin:0;
+}
+#participe .text {
+	border:none;
+	width:180px;
+}
+#participe .button {
+	background:#990000;
+}
+#recentes {
+
+}
+.recente {
+	border-bottom:1px dashed #ccc;
+	padding:8px 0;
+}
+.recente h1 {
+	font-size:1.57em;
+}
+#tags {
+
+}
+#links ul li {
+	border-bottom:1px dashed #ccc;
+}
+#links ul li a {
+	display:block;
+	padding:4px 0;
+	width:100%;
+}
+#base {
+	background:#e3e3e3;
+	border-top:2px solid #ccc;
+	clear:both;
+	margin:0;
+	padding:8px;
+	text-align:center;
+}
+#base ul {
+	font-size:1.2em;
+	font-weight:bold;
+	letter-spacing:-1px;
+	margin-bottom:12px;
+	text-transform:lowercase;
+}
+#base ul li {
+	display:inline;
+	padding:0 4px;
+}
+#base ul li.current a {
+	color:#000;
+}
+#base p {
+	color:#999;
+	font-size:1.2em;
+	letter-spacing:-1px;
+}
+#base p em {
+	font-family: georgia, "times new roman", serif;
+	font-style:oblique;
+}
+
+form#indique {
+	margin:0 0 20px;
+	padding:0;
+}
+form#indique fieldset {
+	border:none;
+	margin:0 0 20px;
+	padding:0;
+}
+form#indique legend {
+	color:#cc0000;
+	margin-bottom:10px;
+}
+form#indique .text {
+	margin:0 0 20px;
+	width:218px;
+}
+form#indique #mensagem {
+	height:120px;
+	overflow:auto;
+	width:458px;
+}
+form#indique label {
+	color:#666;
+	font-size:1.17em;
+	line-height:1;
+	margin:0;
+}
+form#indique .button {
+	background:#990000;
+}
+
+a#miximg { background:#990000; color:#fff; display:block; font-size:1.17em; line-height:1; margin:0 0 20px; padding:8px 0; text-align:center; text-decoration:none; }
+a#miximg:hover { background:#660000; }
+a#miximg strong {
+	font-size:1.3em;
+	font-weight:bold;
+}
+
+a.indique { background:#990000; color:#fff; display:block; font-size:1.17em; line-height:1; margin:0 0 20px; padding:8px 0; text-align:center; text-decoration:none; }
+a.indique:hover { background:#660000; }
+a.indique strong { font-size:1.3em; font-weight:bold; }
+
+.indique-erro {
+	border-top: 1px solid #eb2c36;
+	border-bottom: 1px solid #eb2c36;
+	background: #f6e0ea;
+	padding-bottom: 5px;
+}
+
+.indique-sucesso {
+	border-top: 1px solid #3dbc39;
+	border-bottom: 1px solid #3dbc39;
+	background: #ddf1dc;
+	padding-bottom: 5px;
+}
+
+.indique-erro p, .indique-sucesso p {
+	margin: 0 auto;
+	padding: 0 5px;
+}
+
+#log_res {
+	padding: 10px 0;
+}
+
+ul#sidebar { margin:0; }
+ul#sidebar li { background:#e3e3e3 url(images/canto.png) right top no-repeat; border-bottom:2px solid #ccc;	margin-bottom:20px;	padding:10px; }
+ul#sidebar li ul { margin:0; }
+ul#sidebar li ul li { background:none; border:none; margin:0; padding:0; }
+ul#sidebar li ul li a { display: block; }
+ul#sidebar h2 {	color:#999;	font:bold 1.5em/1 helvetica, arial, sans-serif;	letter-spacing:-1px; text-align:left; text-transform:lowercase; }
+
+ul#sidebar li.widget_rss ul li { border-bottom: 1px solid #ccc; padding: 3px 0; }
+ul#sidebar li.twitter ul li { border-bottom: 1px solid #ccc; padding: 3px 0; }
+
+
+
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+
