@@ -1,0 +1,29 @@
+# Rand
+backup
+phpmyadmin
+
+# Soylocoporti
+soylocoporti.git
+
+# Repos
+wp-content/themes/monospace2
+wp-content/plugins/regenerate-thumbnails
+wp-content/plugins/postie
+wp-content/plugins/post-content-actions
+
+# Vim
+*~
+*.swp
+*.swo
+
+# WordPress
+.htaccess
+wp-config.php
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/blogs.dir
+wp-content/cache
+wp-content/uploads
+wp-content/upgrade
+wp-content/*.tmp
+wp-content/*.log
