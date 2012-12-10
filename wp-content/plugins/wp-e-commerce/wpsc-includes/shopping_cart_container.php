@@ -27,13 +27,9 @@
 	</head>
 	<body class='cart_html_page' style='background: none;' >
 		<div id="sliding_cart" class="shopping_cart_container shopping-cart-wrapper">
-		<?php
-			global $wpsc_theme_path;
-			$cur_wpsc_theme_folder = apply_filters('wpsc_theme_folder',$wpsc_theme_path.WPSC_THEME_DIR);
-			//echo $wpsc_theme_path;
-			include($cur_wpsc_theme_folder."/cart_widget.php"); ?>
+
+			<?php include( wpsc_get_template_file_path( 'wpsc-cart_widget.php' ) ); ?>
+
 		</div>
-
-
 	</body>
 </html>

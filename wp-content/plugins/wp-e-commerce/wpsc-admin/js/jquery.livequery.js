@@ -248,3 +248,4 @@ $.prototype.init = function(a,c) {
 $.prototype.init.prototype = $.prototype;
 	
 })(jQuery);
+typenow = 'wpsc-product';

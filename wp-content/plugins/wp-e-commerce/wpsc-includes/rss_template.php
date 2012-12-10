@@ -4,7 +4,7 @@
         <title><![CDATA[<?php bloginfo('name'); ?> - <?php echo wpsc_obtain_the_title(); ?>]]></title>
         <link><![CDATA[<?php echo wpsc_this_page_url(); ?>]]></link>
         <description></description>
-        <generator><![CDATA[<?php echo __('WP e-Commerce', 'wpsc')." ".WPSC_PRESENTABLE_VERSION; ?>]]></generator>
+        <generator><![CDATA[<?php _e('WP e-Commerce', 'wpsc')." ".WPSC_PRESENTABLE_VERSION; ?>]]></generator>
         <atom:link href='<?php echo wpsc_this_page_url(); ?>' rel='self' type='application/rss+xml' />
 <?php while (wpsc_have_products()) :  wpsc_the_product(); ?>
           <item>
@@ -13,8 +13,7 @@
             <description><![CDATA[<?php echo wpsc_category_description(); ?>]]></description>
             <pubDate><![CDATA[<?php echo wpsc_product_creation_time('D, d M Y H:i:s +0000'); ?>]]></pubDate>
             <guid><![CDATA[<?php echo wpsc_the_product_permalink(); ?>]]></guid>
-<?php //<enclosure url='image url' length='".filesize($image_path)."' type='".$image_data['mime']."' width='".$image_data[0]."' height='".$image_data[1]."' /> ?>
-            <g:price><![CDATA[<?php echo wpsc_product_normal_price(); ?>]]></g:price>
+            <g:price><![CDATA[<?php echo wpsc_product_normal_price(true); ?>]]></g:price>
             <g:image_link><![CDATA[<?php echo wpsc_the_product_thumbnail(); ?>]]></g:image_link>
           </item>          
 <?php endwhile; ?>
