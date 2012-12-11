@@ -27,18 +27,15 @@
 			<!--  <a href="http://cultura.gov.br/cultura_viva"><img id="selo-midia-livre" src="http://soylocoporti.org.br/files/2009/10/logo_midialivre.png" /></a>  -->
 		</div>
 		<div class="span-6" id="boasvindas">
-			<?php if(is_user_logged_in()) : ?>
 				<?php if (function_exists('stray_random_quote')) : ?>
 					<?php stray_random_quote(); ?>
 				<?php endif; ?>
-			<?php else : ?>
 				<?php query_posts('page_id=5'); ?>
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<?php the_excerpt(); ?>
 				<?php endwhile; endif; ?>
 				<?php wp_reset_query(); ?>
 				<a href="<?php echo get_page_link(5) ?>" title="Saiba mais sobre o Soyloco">&rarr; Conheça o Soyloco</a>
-			<?php endif; ?>
 		</div>
 		<div class="span-12 last">
 			<div class="span-12 last">
@@ -46,7 +43,7 @@
 			</div>
 			<div class="span-12 last" id="busca">
 				<?php include (TEMPLATEPATH . "/searchform.php"); ?>
-			</div>
+			</div>		
 		</div>
 	</div><!-- /topo -->
 

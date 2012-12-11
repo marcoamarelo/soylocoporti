@@ -50,7 +50,7 @@ body { background:url(images/fundo.jpg) fixed; margin:0; padding:0; }
 #topo .menu ul li a { border-bottom:4px solid white; color:#fff; display:block; padding:12px 0 4px; text-decoration:none; }
 #topo .menu ul li.menu-capa a { background:#1789CF; }
 #topo .menu ul li.menu-sobre a { background:#E88521; }
-#topo .menu ul li.menu-textos a { background:#B7867B; }
+#topo .menu ul li.menu-loja a { background:#B7867B; }
 #topo .menu ul li.menu-fotos a { background:#F5E410; }
 #topo .menu ul li.menu-videos a { background:#6699cc; }
 #topo .menu ul li.menu-blogs a { background:#A6CA32; }

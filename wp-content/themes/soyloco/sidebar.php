@@ -52,13 +52,10 @@
 			<br/>+55 41-3092-0463
 			</address>
 		</div>		
+	
+	<?php elseif(is_page('pagina-de-produtos')): ?>	
 		
-	<?php //se for a página de textos ?>
-	<?php elseif(!is_page('agenda')) : ?>
-		<div id="tagcloud">
-			<h6>Tags da rede Soyloco</h6>
-			<?php mu_tag_cloud(); ?>
-		</div>
+		<?php echo wpsc_shopping_cart(); ?>	
 	
 	
 	<?php endif; ?>
