@@ -51,13 +51,9 @@
 			<br/>Curitiba, <acronym title="Paraná">PR</acronym>, Brasil
 			<br/>+55 41-3092-0463
 			</address>
-		</div>		
-	
-	<?php elseif(is_page('pagina-de-produtos')): ?>	
-		
-		<?php echo wpsc_shopping_cart(); ?>	
-	
-	
+		</div>
+	<?php elseif($post->post_type == 'wpsc-product') : ?>
+		<?php echo wpsc_shopping_cart(); ?>
 	<?php endif; ?>
 </div><!-- /lateral -->
 

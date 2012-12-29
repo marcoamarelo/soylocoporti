@@ -27,3 +27,5 @@ wp-content/uploads
 wp-content/upgrade
 wp-content/*.tmp
 wp-content/*.log
+
+sitemaps/

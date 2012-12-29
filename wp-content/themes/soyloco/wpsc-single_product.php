@@ -19,7 +19,7 @@
 		do_action( 'wpsc_top_of_products_page' );
 	?>
 
-	<div class="single_product_display group">
+	<div class="single_product_display group span-19">
 <?php
 		/**
 		 * Start the product loop here.
@@ -27,7 +27,7 @@
 		 */
 
 		while ( wpsc_have_products() ) : wpsc_the_product(); ?>
-					<div class="imagecol">
+					<div class="imagecol span-7">
 						<?php if ( wpsc_the_product_thumbnail() ) : ?>
 								<a rel="<?php echo wpsc_the_product_title(); ?>" class="<?php echo wpsc_the_product_image_link_classes(); ?>" href="<?php echo esc_url( wpsc_the_product_image() ); ?>">
 									<img class="product_image" id="product_image_<?php echo wpsc_the_product_id(); ?>" alt="<?php echo wpsc_the_product_title(); ?>" title="<?php echo wpsc_the_product_title(); ?>" src="<?php echo wpsc_the_product_thumbnail(); ?>"/>
@@ -43,7 +43,7 @@
 						<?php endif; ?>
 					</div><!--close imagecol-->
 
-					<div class="productcol">
+					<div class="productcol span-11">
 						<?php do_action('wpsc_product_before_description', wpsc_the_product_id(), $wp_query->post); ?>
 						<div class="product_description">
 							<?php echo wpsc_the_product_description(); ?>
@@ -137,7 +137,7 @@
 									<label for="donation_price_<?php echo wpsc_the_product_id(); ?>"><?php _e('Donation', 'wpsc'); ?>: </label>
 									<input type="text" id="donation_price_<?php echo wpsc_the_product_id(); ?>" name="donation_price" value="<?php echo wpsc_calculate_price(wpsc_the_product_id()); ?>" size="6" />
 								<?php else : ?>
-									<?php wpsc_the_product_price_display(); ?>
+									<?php echo wpsc_product_normal_price(); ?>
 									 <!-- multi currency code -->
                                     <?php if(wpsc_product_has_multicurrency()) : ?>
 	                                    <?php echo wpsc_display_product_multicurrency(); ?>

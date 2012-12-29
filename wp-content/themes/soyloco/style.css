@@ -208,3 +208,23 @@ p#vermais-videos { color:#B7867B; font-size:1.5em; font-weight:bold; letter-spac
 #texto-divulgacao { font-size:0.5em;writing-mode: tb-rl;position:absolute; margin-left:-20px; background:#A6CA32; color:#fff; }
 
 #selo-midia-livre { position:absolute;margin-left:120px; margin-top:-10px; }
+
+/* Loja Soylocoporti */
+
+#sideshoppingcart { background:#B7867B; color: #fff; padding: 8px; -moz-border-radius: 10px; border-radius: 10px;}
+#sideshoppingcart h3 { color: #fff; }
+#sideshoppingcart a { color: #DBC8B4; }
+#sideshoppingcart th { background: #4f6873; }
+#sideshoppingcart tbody tr { background-color: #99B0B9;  }
+#sideshoppingcart tbody tr:nth-child(odd) { background-color: #8EACB9; }
+#sideshoppingcart tbody tr td {padding: 3px; }
+
+.product_description p { font-size: 2em; letter-spacing:-2px; line-height: 1em; }
+
+.single_product_display .wpsc_product_price { font-size: 2.4em !important; color: #CC0000; font-weight: bold; }
+
+.wpsc_buy_button_container { text-align:left !important; }
+
+.imagecol { width: 250px; overflow: hidden;}
+
+.checkout_cart th { background: #4f6873; color: #fff; }
